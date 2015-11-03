@@ -1,0 +1,12 @@
+.rendezvous-shown, .mission-shown, .liftoff-shown, .transit-shown, .link-shown, .threat-shown {
+  display: none;
+}
+
+.click-rendez, .click-mission, .click-liftoff, .click-transit, .click-link, .click-threat {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.click-rendez:hover, .click-mission:hover, .click-liftoff:hover, .click-transit:hover, .click-link:hover, .click-threat:hover {
+  text-decoration: underline;
+}
