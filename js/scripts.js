@@ -51,8 +51,28 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("light-background");
   })
-});
 
+  // Change Paragraph Color
+  $("p#liftoff").click(function() {
+    $("p#liftoff").removeClass();
+    $("p#liftoff").addClass("highlight_paragraph");
+  });
+
+  $("p#transit").click(function() {
+    $("p#transit").removeClass();
+    $("p#transit").addClass("highlight_paragraph");
+  })
+
+  $("p#linkup").click(function() {
+    $("p#linkup").removeClass();
+    $("p#linkup").addClass("highlight_paragraph");
+  });
+
+  $("p#threat").click(function() {
+    $("p#threat").removeClass();
+    $("p#threat").addClass("highlight_paragraph")
+  });
+});
 
 
 
