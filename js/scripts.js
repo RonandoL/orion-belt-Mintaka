@@ -39,3 +39,27 @@ $(document).ready(function() {
     $(".threat-shown").toggle();
   });
 });
+
+// Change Background Color
+$(document).ready(function() {
+  $("button#light_text").click(function() {
+    $("body").removeClass();
+    $("body").addClass("dark-background");
+  });
+
+  $("button#dark_text").click(function() {
+    $("body").removeClass();
+    $("body").addClass("light-background");
+  })
+});
+
+
+
+
+
+
+
+
+
+
+//
